@@ -4,19 +4,21 @@
     <img alt="Vue logo" src="./assets/logo.png">
     </div>
     <button @click=" isShow = ! isShow">click me</button>
-    <Menu />
+    <Demo />
   </div>
 </template>
 
 <script>
-import Menu from './components/Menu.vue'
+import Demo from './components/demo.vue'
+
 
 
 export default {
   name: 'App',
   components: {
-    Menu
+    Demo
   },
+    
   data() {
     return {
       isShow : true
